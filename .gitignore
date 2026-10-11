@@ -1,0 +1,60 @@
+# Python environments and caches
+.venv/
+.venv*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/secrets/
+/credentials/
+**/secrets/
+**/credentials/
+
+# Editors and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Local data and competition datasets
+data/
+!data/
+data/*
+!data/README.md
+datasets/
+raw_data/
+input/
+
+# Local audits and player-level derived outputs
+/reports/audit/*.json
+/reports/audit/*.csv
+!/reports/audit/data_inventory.csv
+/reports/audit/environment_audit.md
+/reports/audit/kaggle_cli_status.md
+/reports/tables/selected_player_analysis.csv
+/reports/tables/rookie_tracking_summary.csv
+
+# Model and runtime artifacts
+/models/
+/artifacts/

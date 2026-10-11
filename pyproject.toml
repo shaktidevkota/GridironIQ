@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gridiron-iq"
+version = "0.1.0"
+description = "NFL Big Data Bowl 2027 research project linking Combine sensor tracking to regular-season tracking outcomes."
+readme = "README.md"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "pandas>=2.2,<3.0",
+  "numpy>=1.26,<3.0",
+  "pyarrow>=15.0",
+  "matplotlib>=3.8",
+  "seaborn>=0.13",
+  "scikit-learn>=1.4",
+  "psutil>=5.9",
+  "pyyaml>=6.0",
+]
+
+[project.scripts]
+gridiron-iq = "gridiron_iq.pipeline:main"
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "jupyter>=1.0", "kaggle>=1.6"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

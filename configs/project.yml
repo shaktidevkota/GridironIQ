@@ -1,0 +1,18 @@
+project:
+  name: GridironIQ
+  competition_slug: nfl-big-data-bowl-2027
+  kaggle_competition_url: https://www.kaggle.com/competitions/nfl-big-data-bowl-2027
+
+paths:
+  raw_data: "C:/GridironIQ-data/nfl-big-data-bowl-2027"
+  interim_data: "C:/GridironIQ-data/interim"
+  processed_data: "C:/GridironIQ-data/processed"
+  audit_reports: reports/audit
+  figures: reports/figures
+  tables: reports/tables
+
+research_guardrails:
+  empirical_claims_require_real_data: true
+  no_name_only_player_merges: true
+  preserve_raw_files: true
+  avoid_target_leakage: true

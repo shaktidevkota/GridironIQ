@@ -1,0 +1,144 @@
+filename,check,rows_flagged,interpretation
+combine_results.csv,arm_length_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,bench_reps_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,broad_jump_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,combine_height_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,combine_weight_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,draft_year_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,forty_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,hand_size_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,ngs_athleticism_score_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,ngs_college_production_score_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,ngs_final_score_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,short_shuttle_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,ten_yd_split_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,three_cone_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,vertical_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_results.csv,wing_span_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,a_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,a_negative_rows,0,"Negative acceleration values are reported, not dropped; the source does not document whether acceleration is signed."
+combine_tracking.csv,attempt_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,dir_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,dir_outside_0_360,0,Direction values outside the expected degree range.
+combine_tracking.csv,dis_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,dis_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+combine_tracking.csv,draft_year_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,entity_type_BALL_rows,32095,Entity-type counts; only PLAYER rows are used for Combine features.
+combine_tracking.csv,entity_type_PLAYER_rows,431094,Entity-type counts; only PLAYER rows are used for Combine features.
+combine_tracking.csv,entity_type_other_rows,0,Entity-type counts; only PLAYER rows are used for Combine features.
+combine_tracking.csv,invalid_time_rows,0,Rows whose source timestamp could not be parsed.
+combine_tracking.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,s_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,s_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+combine_tracking.csv,x_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+combine_tracking.csv,y_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,a_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,a_negative_rows,0,"Negative acceleration values are reported, not dropped; the source does not document whether acceleration is signed."
+game_tracking_2023.csv,dir_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,dir_outside_0_360,0,Direction values outside the expected degree range.
+game_tracking_2023.csv,dis_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,dis_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+game_tracking_2023.csv,game_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,invalid_time_rows,0,Rows whose source timestamp could not be parsed.
+game_tracking_2023.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,o_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,play_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,s_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,s_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+game_tracking_2023.csv,x_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,x_outside_0_120,699,Outside nominal playing-surface bounds; retained because tracking can include out-of-play locations.
+game_tracking_2023.csv,y_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2023.csv,y_outside_0_53_333,13576,Outside nominal playing-surface bounds; retained because tracking can include out-of-play locations.
+game_tracking_2024.csv,a_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,a_negative_rows,0,"Negative acceleration values are reported, not dropped; the source does not document whether acceleration is signed."
+game_tracking_2024.csv,dir_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,dir_outside_0_360,0,Direction values outside the expected degree range.
+game_tracking_2024.csv,dis_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,dis_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+game_tracking_2024.csv,game_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,invalid_time_rows,0,Rows whose source timestamp could not be parsed.
+game_tracking_2024.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,o_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,play_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,s_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,s_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+game_tracking_2024.csv,x_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,x_outside_0_120,1689,Outside nominal playing-surface bounds; retained because tracking can include out-of-play locations.
+game_tracking_2024.csv,y_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2024.csv,y_outside_0_53_333,28283,Outside nominal playing-surface bounds; retained because tracking can include out-of-play locations.
+game_tracking_2025.csv,a_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,a_negative_rows,82,"Negative acceleration values are reported, not dropped; the source does not document whether acceleration is signed."
+game_tracking_2025.csv,dir_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,dir_outside_0_360,0,Direction values outside the expected degree range.
+game_tracking_2025.csv,dis_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,dis_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+game_tracking_2025.csv,game_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,invalid_time_rows,0,Rows whose source timestamp could not be parsed.
+game_tracking_2025.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,o_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,play_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,s_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,s_negative_rows,0,Negative speed or distance values; these are reviewed as anomalies.
+game_tracking_2025.csv,x_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,x_outside_0_120,2121,Outside nominal playing-surface bounds; retained because tracking can include out-of-play locations.
+game_tracking_2025.csv,y_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+game_tracking_2025.csv,y_outside_0_53_333,37196,Outside nominal playing-surface bounds; retained because tracking can include out-of-play locations.
+games.csv,game_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+games.csv,game_key_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+games.csv,season_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+games.csv,week_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,ap_all_pro_1st_team_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,ap_all_pro_2nd_team_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,career_defensive_snaps_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,career_games_active_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,career_games_started_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,career_offensive_snaps_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,career_special_teams_snaps_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_career_successes.csv,pro_bowl_original_ballot_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,assist_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,caused_forced_fumble_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,cushion_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,down_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,dropback_duration_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,expected_points_added_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,expected_points_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,expected_yards_after_catch_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,extended_sack_allowed_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,fumble_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,fumble_lost_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,game_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,home_team_win_probability_added_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,pass_length_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,pass_rushers_encountered_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,peak_pressure_probability_allowed_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,penalty_yards_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,play_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,player_get_off_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,pre_penalty_yards_gained_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,pre_snap_home_score_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,pre_snap_home_team_win_probability_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,pre_snap_visitor_score_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,pre_snap_visitor_team_win_probability_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,quarter_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,rec_yards_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,rush_yards_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,sack_allowed_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,sack_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,separation_at_pass_forward_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,tackle_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,time_to_pressure_allowed_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,time_to_pressure_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,time_to_qb_hurry_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,visitor_team_win_probility_added_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,yardline_number_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,yards_after_catch_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,yards_gained_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+player_play.csv,yards_to_go_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+players.csv,draft_overall_pick_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+players.csv,draft_pick_within_round_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+players.csv,draft_round_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+players.csv,draft_year_infinite_rows,0,Infinite numeric values; missing values are reported separately.
+players.csv,nfl_id_infinite_rows,0,Infinite numeric values; missing values are reported separately.

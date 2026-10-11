@@ -1,0 +1,13 @@
+feature,outcome,draft_year,players,spearman_correlation
+Combine peak speed,Rookie mean speed,2023,27,0.6007326007326006
+Combine peak speed,Rookie mean speed,2024,27,0.5360195360195361
+Combine peak speed,Rookie mean speed,2025,37,0.5476529160739686
+Combine mean acceleration,Rookie mean acceleration,2023,27,0.5177045177045178
+Combine mean acceleration,Rookie mean acceleration,2024,27,0.2655677655677655
+Combine mean acceleration,Rookie mean acceleration,2025,37,0.6232811759127548
+Combine peak speed,Career total snaps,2023,27,0.394993894993895
+Combine peak speed,Career total snaps,2024,27,0.16361416361416362
+Combine peak speed,Career total snaps,2025,37,0.19502074825847188
+Forty-yard time,Rookie mean speed,2023,23,-0.6846406422824107
+Forty-yard time,Rookie mean speed,2024,25,-0.7250337940726059
+Forty-yard time,Rookie mean speed,2025,23,-0.7190903616550964

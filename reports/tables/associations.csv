@@ -1,0 +1,5 @@
+feature,feature_column,outcome,outcome_column,players,draft_year_adjusted_rank_correlation,bootstrap_95pct_low,bootstrap_95pct_high,controlling_for_forty_and_cohort,partial_bootstrap_95pct_low,partial_bootstrap_95pct_high,partial_players
+Combine peak speed,combine_peak_speed,Rookie mean speed,rookie_mean_speed,91,0.5794218182798554,0.4234871535403353,0.7056408960352086,0.08774552913087959,-0.14170284297531402,0.33576196659863355,71.0
+Combine mean acceleration,combine_mean_acceleration,Rookie mean acceleration,rookie_mean_acceleration,91,0.489892680162119,0.3151788905772588,0.6244551017327683,,,,
+Combine peak speed,combine_peak_speed,Career total snaps,career_total_snaps,91,0.29878360518408376,0.07886619401567926,0.4722190389351194,,,,
+Forty-yard time,forty,Rookie mean speed,rookie_mean_speed,71,-0.7153044558178033,-0.7976231207322484,-0.6021776412223561,,,,
